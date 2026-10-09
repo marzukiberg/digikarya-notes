@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <radialGradient id="scGlow" cx="70%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#00a299" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#0369a1" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#071318" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c4b4"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="scCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#102026"/>
+      <stop offset="100%" stop-color="#0b171c"/>
+    </linearGradient>
+    <filter id="scShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="#081419"/>
+  <rect width="1080" height="1080" fill="url(#scGlow)"/>
+
+  <!-- Top Bar -->
+  <g transform="translate(80, 80)">
+    <rect width="280" height="52" rx="26" fill="#132730" stroke="#1e3e4d" stroke-width="2"/>
+    <circle cx="28" cy="26" r="10" fill="#00c4b4"/>
+    <text x="50" y="33" fill="#ffffff" font-family="'Inter', sans-serif" font-size="20" font-weight="700" letter-spacing="1">DIGIKARYA · DOKUMEN</text>
+  </g>
+
+  <g transform="translate(740, 80)">
+    <rect width="260" height="52" rx="26" fill="#00a299" opacity="0.15"/>
+    <rect width="260" height="52" rx="26" fill="none" stroke="#00c4b4" stroke-width="2"/>
+    <text x="130" y="33" fill="#00e5d4" font-family="'Inter', sans-serif" font-size="20" font-weight="800" text-anchor="middle" letter-spacing="2">PROSES 1-5 MENIT</text>
+  </g>
+
+  <!-- Doc Icon Badge -->
+  <g transform="translate(740, 240)" filter="url(#scShadow)">
+    <circle cx="120" cy="120" r="110" fill="#0f252e" stroke="#1d4554" stroke-width="3"/>
+    <!-- Folded paper icon -->
+    <path d="M75 55 L135 55 L165 85 L165 185 L75 185 Z" fill="#00c4b4"/>
+    <polygon points="135,55 135,85 165,85" fill="#ffffff" opacity="0.4"/>
+    <!-- Lines inside -->
+    <line x1="90" y1="110" x2="150" y2="110" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <line x1="90" y1="130" x2="150" y2="130" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <line x1="90" y1="150" x2="130" y2="150" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Main Headline -->
+  <g transform="translate(80, 240)">
+    <text x="0" y="50" fill="#00e5d4" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="700" letter-spacing="4">INSTANT DOCUMENT DOWNLOAD</text>
+    <text x="0" y="130" fill="#ffffff" font-family="'Inter', sans-serif" font-size="74" font-weight="900" letter-spacing="-2">JASA DOWNLOAD</text>
+    <text x="0" y="210" fill="#ffffff" font-family="'Inter', sans-serif" font-size="74" font-weight="900" letter-spacing="-2">SCRIBD &amp; ACADEMIA</text>
+    <text x="0" y="270" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="28" font-weight="500">Slideshare · Original Full PDF/DOCX · No Watermark</text>
+  </g>
+
+  <!-- Bento Grid Items -->
+  <g transform="translate(80, 560)">
+    <rect x="0" y="0" width="440" height="140" rx="20" fill="url(#scCardGrad)" stroke="#1a3b47" stroke-width="2"/>
+    <circle cx="60" cy="70" r="30" fill="#00c4b4" opacity="0.15"/>
+    <text x="60" y="77" fill="#00c4b4" font-family="'Inter', sans-serif" font-size="26" font-weight="900" text-anchor="middle">📄</text>
+    <text x="110" y="58" fill="#ffffff" font-family="'Inter', sans-serif" font-size="24" font-weight="700">File Asli 100%</text>
+    <text x="110" y="90" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="18">PDF/PPTX original, bukan screenshot</text>
+
+    <rect x="480" y="0" width="440" height="140" rx="20" fill="url(#scCardGrad)" stroke="#1a3b47" stroke-width="2"/>
+    <circle cx="540" cy="70" r="30" fill="#0284c7" opacity="0.15"/>
+    <text x="540" y="77" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="26" font-weight="900" text-anchor="middle">☁</text>
+    <text x="590" y="58" fill="#ffffff" font-family="'Inter', sans-serif" font-size="24" font-weight="700">Kirim via Google Drive</text>
+    <text x="590" y="90" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="18">Link privat, aman &amp; langsung download</text>
+
+    <rect x="0" y="170" width="440" height="140" rx="20" fill="url(#scCardGrad)" stroke="#1a3b47" stroke-width="2"/>
+    <circle cx="60" cy="240" r="30" fill="#f59e0b" opacity="0.15"/>
+    <text x="60" y="247" fill="#fbbf24" font-family="'Inter', sans-serif" font-size="26" font-weight="900" text-anchor="middle">💰</text>
+    <text x="110" y="228" fill="#ffffff" font-family="'Inter', sans-serif" font-size="24" font-weight="700">Hemat Luar Biasa</text>
+    <text x="110" y="260" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="18">Tanpa bayar langganan bulanan mahal</text>
+
+    <rect x="480" y="170" width="440" height="140" rx="20" fill="url(#scCardGrad)" stroke="#1a3b47" stroke-width="2"/>
+    <circle cx="540" cy="240" r="30" fill="#10b981" opacity="0.15"/>
+    <text x="540" y="247" fill="#34d399" font-family="'Inter', sans-serif" font-size="26" font-weight="900" text-anchor="middle">⚡</text>
+    <text x="590" y="228" fill="#ffffff" font-family="'Inter', sans-serif" font-size="24" font-weight="700">Cukup Kirim Link / ID</text>
+    <text x="590" y="260" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="18">Admin gerak cepat proses dokumen</text>
+  </g>
+
+  <!-- Bottom CTA -->
+  <g transform="translate(80, 910)">
+    <rect width="920" height="100" rx="24" fill="#0d1f27" stroke="#1d4252" stroke-width="2"/>
+    <text x="40" y="60" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="22" font-weight="600">TARIF PER DOKUMEN</text>
+    <text x="320" y="66" fill="#00e5d4" font-family="'Inter', sans-serif" font-size="44" font-weight="900" letter-spacing="-1">Rp 1.500 – 3.000</text>
+    <rect x="680" y="20" width="200" height="60" rx="30" fill="url(#scGrad)"/>
+    <text x="780" y="58" fill="#ffffff" font-family="'Inter', sans-serif" font-size="22" font-weight="800" text-anchor="middle">ORDER SHOPEE</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+/*
+Deploy this file with:
+  firebase deploy --only firestore:rules
+
+After deployment, enable TTL in Firebase Console > Firestore Database > TTL policies:
+  Collection group: notes
+  Field: expiresAt
+  Enable the policy (expiration offset: 0)
+*/
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{db}/documents {
+    match /notes/{noteId} {
+      allow get: if true; // direct public link only; collection enumeration is denied
+      allow create: if request.resource.data.keys().hasAll(['id','title','content','createdAt','expiresAt'])
+        && request.resource.data.expiresAt > request.time.toMillis()
+        && request.resource.data.expiresAt < request.time.toMillis() + 72 * 60 * 60 * 1000
+        && request.resource.data.content.size() < 20000
+        && request.resource.data.id == noteId;
+      allow update, delete: if false; // overwrite/destroy only through backend / Admin SDK
+      allow list: if false; // prevent collection enumeration
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

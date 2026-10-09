@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#fe2c55" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#00f2fe" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0a0a0c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cyanRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#fe2c55"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181f"/>
+      <stop offset="100%" stop-color="#111116"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#0c0d12"/>
+  <rect width="1080" height="1080" fill="url(#bgGlow)"/>
+
+  <!-- Subtle Grid -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <line x1="120" y1="0" x2="120" y2="1080"/>
+    <line x1="240" y1="0" x2="240" y2="1080"/>
+    <line x1="360" y1="0" x2="360" y2="1080"/>
+    <line x1="480" y1="0" x2="480" y2="1080"/>
+    <line x1="600" y1="0" x2="600" y2="1080"/>
+    <line x1="720" y1="0" x2="720" y2="1080"/>
+    <line x1="840" y1="0" x2="840" y2="1080"/>
+    <line x1="960" y1="0" x2="960" y2="1080"/>
+    <line x1="0" y1="120" x2="1080" y2="120"/>
+    <line x1="0" y1="240" x2="1080" y2="240"/>
+    <line x1="0" y1="360" x2="1080" y2="360"/>
+    <line x1="0" y1="480" x2="1080" y2="480"/>
+    <line x1="0" y1="600" x2="1080" y2="600"/>
+    <line x1="0" y1="720" x2="1080" y2="720"/>
+    <line x1="0" y1="840" x2="1080" y2="840"/>
+    <line x1="0" y1="960" x2="1080" y2="960"/>
+  </g>
+
+  <!-- Header Brand Bar -->
+  <g transform="translate(80, 80)">
+    <rect width="260" height="52" rx="26" fill="#1e1e26" stroke="#2e2e3a" stroke-width="2"/>
+    <circle cx="28" cy="26" r="10" fill="#fe2c55"/>
+    <text x="50" y="33" fill="#ffffff" font-family="'Inter', system-ui, sans-serif" font-size="20" font-weight="700" letter-spacing="1">DIGIKARYA · SMM</text>
+  </g>
+
+  <g transform="translate(740, 80)">
+    <rect width="260" height="52" rx="26" fill="#fe2c55" opacity="0.15"/>
+    <rect width="260" height="52" rx="26" fill="none" stroke="#fe2c55" stroke-width="2"/>
+    <text x="130" y="33" fill="#fe2c55" font-family="'Inter', system-ui, sans-serif" font-size="20" font-weight="800" text-anchor="middle" letter-spacing="2">PROSES OTOMATIS</text>
+  </g>
+
+  <!-- TikTok Icon Motif -->
+  <g transform="translate(740, 240)" filter="url(#softShadow)">
+    <circle cx="120" cy="120" r="110" fill="#14141c" stroke="#2a2a38" stroke-width="3"/>
+    <!-- TikTok Note SVG Shape -->
+    <path d="M145 75 C145 95 155 110 175 115 L175 135 C158 135 145 128 135 120 L135 165 C135 192 112 215 85 215 C58 215 35 192 35 165 C35 138 58 115 85 115 C90 115 95 116 100 118 L100 142 C95 140 90 139 85 139 C71 139 60 151 60 165 C60 179 71 190 85 190 C99 190 110 179 110 165 L110 55 L145 55 Z" fill="#00f2fe" transform="translate(10, 5)"/>
+    <path d="M145 75 C145 95 155 110 175 115 L175 135 C158 135 145 128 135 120 L135 165 C135 192 112 215 85 215 C58 215 35 192 35 165 C35 138 58 115 85 115 C90 115 95 116 100 118 L100 142 C95 140 90 139 85 139 C71 139 60 151 60 165 C60 179 71 190 85 190 C99 190 110 179 110 165 L110 55 L145 55 Z" fill="#fe2c55" transform="translate(0, 0)"/>
+    <path d="M145 75 C145 95 155 110 175 115 L175 135 C158 135 145 128 135 120 L135 165 C135 192 112 215 85 215 C58 215 35 192 35 165 C35 138 58 115 85 115 C90 115 95 116 100 118 L100 142 C95 140 90 139 85 139 C71 139 60 151 60 165 C60 179 71 190 85 190 C99 190 110 179 110 165 L110 55 L145 55 Z" fill="#ffffff" transform="translate(5, 2)"/>
+  </g>
+
+  <!-- Big Title -->
+  <g transform="translate(80, 240)">
+    <text x="0" y="50" fill="#00f2fe" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="700" letter-spacing="4">TIKTOK TOOLS BOOSTER</text>
+    <text x="0" y="130" fill="#ffffff" font-family="'Inter', system-ui, sans-serif" font-size="74" font-weight="900" letter-spacing="-2">VIEWS + LIKES</text>
+    <text x="0" y="210" fill="#ffffff" font-family="'Inter', system-ui, sans-serif" font-size="74" font-weight="900" letter-spacing="-2">+ SAVES INDO</text>
+    <text x="0" y="270" fill="#a1a1aa" font-family="'Inter', system-ui, sans-serif" font-size="28" font-weight="500">Meningkatkan algoritma &amp; interaksi akun FYP</text>
+  </g>
+
+  <!-- Feature Bento Cards -->
+  <g transform="translate(80, 560)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="440" height="140" rx="20" fill="url(#cardGrad)" stroke="#272730" stroke-width="2"/>
+    <circle cx="60" cy="70" r="30" fill="#00f2fe" opacity="0.15"/>
+    <text x="60" y="77" fill="#00f2fe" font-family="'Inter', sans-serif" font-size="26" font-weight="900" text-anchor="middle">✓</text>
+    <text x="110" y="58" fill="#ffffff" font-family="'Inter', sans-serif" font-size="24" font-weight="700">100% Permanen</text>
+    <text x="110" y="90" fill="#9ca3af" font-family="'Inter', sans-serif" font-size="18">Aman &amp; bergaransi sistem</text>
+
+    <!-- Card 2 -->
+    <rect x="480" y="0" width="440" height="140" rx="20" fill="url(#cardGrad)" stroke="#272730" stroke-width="2"/>
+    <circle cx="540" cy="70" r="30" fill="#fe2c55" opacity="0.15"/>
+    <text x="540" y="77" fill="#fe2c55" font-family="'Inter', sans-serif" font-size="26" font-weight="900" text-anchor="middle">⚡</text>
+    <text x="590" y="58" fill="#ffffff" font-family="'Inter', sans-serif" font-size="24" font-weight="700">Tanpa Password</text>
+    <text x="590" y="90" fill="#9ca3af" font-family="'Inter', sans-serif" font-size="18">Cukup kirimkan link video</text>
+
+    <!-- Card 3 -->
+    <rect x="0" y="170" width="440" height="140" rx="20" fill="url(#cardGrad)" stroke="#272730" stroke-width="2"/>
+    <circle cx="60" cy="240" r="30" fill="#38bdf8" opacity="0.15"/>
+    <text x="60" y="247" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="26" font-weight="900" text-anchor="middle">★</text>
+    <text x="110" y="228" fill="#ffffff" font-family="'Inter', sans-serif" font-size="24" font-weight="700">Creator &amp; UMKM</text>
+    <text x="110" y="260" fill="#9ca3af" font-family="'Inter', sans-serif" font-size="18">Tingkatkan trust pembeli</text>
+
+    <!-- Card 4 -->
+    <rect x="480" y="170" width="440" height="140" rx="20" fill="url(#cardGrad)" stroke="#272730" stroke-width="2"/>
+    <circle cx="540" cy="240" r="30" fill="#10b981" opacity="0.15"/>
+    <text x="540" y="247" fill="#10b981" font-family="'Inter', sans-serif" font-size="26" font-weight="900" text-anchor="middle">🚀</text>
+    <text x="590" y="228" fill="#ffffff" font-family="'Inter', sans-serif" font-size="24" font-weight="700">Proses Kilat</text>
+    <text x="590" y="260" fill="#9ca3af" font-family="'Inter', sans-serif" font-size="18">Antrian otomatis 24 jam</text>
+  </g>
+
+  <!-- Bottom Pricing Ribbon -->
+  <g transform="translate(80, 910)">
+    <rect width="920" height="100" rx="24" fill="#16161f" stroke="#2e2e3d" stroke-width="2"/>
+    <text x="40" y="60" fill="#a1a1aa" font-family="'Inter', sans-serif" font-size="22" font-weight="600">HARGA PAKET MULAI</text>
+    <text x="340" y="66" fill="#00f2fe" font-family="'Inter', sans-serif" font-size="44" font-weight="900" letter-spacing="-1">Rp 3.000</text>
+    <rect x="680" y="20" width="200" height="60" rx="30" fill="url(#cyanRed)"/>
+    <text x="780" y="58" fill="#ffffff" font-family="'Inter', sans-serif" font-size="22" font-weight="800" text-anchor="middle">ORDER SHOPEE</text>
+  </g>
+</svg>
